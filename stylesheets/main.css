@@ -49,6 +49,7 @@ pre {
   border-radius: 20px !important;
   cursor: pointer;
   margin: 0 10px;
+  text-decoration: none;
 }
 
 .header > .buttons > a:hover {
