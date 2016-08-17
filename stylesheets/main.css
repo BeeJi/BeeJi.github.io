@@ -69,6 +69,8 @@ pre {
 .header > .lang > a {
   padding: 0 10px;
   cursor: pointer;
+  color: #fff;
+  text-decoration: none;
 }
 
 .header > .lang > a:hover {
@@ -103,12 +105,14 @@ pre {
 }
 
 .phone {
+  align-self: flex-start;
   min-width: 350px;
   display: inline-block;
   width: 350px;
   height: 760px;
   background: url("../images/phone.png") 0% 0% / cover no-repeat;
   padding: 100px 12px;
+  margin-top: 35px;
 }
 
 .phone > iframe {

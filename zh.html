@@ -11,11 +11,11 @@
 </head>
 <body>
   <div class="header">
-    <span>SCALABLE AND CUSTOMIZABLE</span>
-    <h1>HTML5 Mobile Rich Text Editor</h1>
+    <span>可扩展、可定制的</span>
+    <h1>HTML5 手机富文本编辑器</h1>
     <div class="buttons">
-      <a href="http://doc.beeji.cn">Documentation</a>
-      <a href="http://beeji.cn/BeeJi/demo/" title="Demos, it looks better in mobile view mode">Demos</a>
+      <a href="http://doc.beeji.cn">文档</a>
+      <a href="http://beeji.cn/BeeJi/demo/" title="Demos, it looks better in mobile view mode">演示</a>
     </div>
     <div class="gitbtn">
       <iframe src="https://ghbtns.com/github-btn.html?user=BeeJi&repo=BeeJi&type=star&count=true" frameborder="0" scrolling="0" width="110px" height="20px" v-show="descAnimateReady" transition="enter"></iframe>
@@ -29,7 +29,7 @@
   <div class="content">
     <ul class="features">
       <li>
-        <h3>Get started easily</h3>
+        <h3>初始化方便</h3>
         <pre>
           <code class="language-javascript">
 var objInit = {
@@ -44,11 +44,9 @@ beeji.fly(objInit);
         </pre>
       </li>
       <li>
-        <h3>Scalable</h3>
+        <h3>可扩展的</h3>
         <p>
-          Any user can create a plugin, and add it to BeeJi very simply. </p>
-        <p>
-          BeeJi support any numbers plugins, if plugins are more than 5, will display navigation buttons for help.
+          用户可以很方便的创建一个自己的插件；当插件超过5个时，会显示滚动按钮
         </p>
         <pre class="language-javascript">
           <code class="language-javascript">
@@ -62,9 +60,9 @@ var Bold = {
     };
   },
   svg: [
-    '&lt;symbol id="icon-bold" viewBox="0 0 32 32">',
-    '&lt;path class="path1" d="M22.121 15.145c1.172-1.392 1.879-3.188 1.879-5.145 0-4.411-3.589-8-8-8h-10v28h12c4.411 0 8-3.589 8-8 0-2.905-1.556-5.453-3.879-6.855zM12 6h3.172c1.749 0 3.172 1.794 3.172 4s-1.423 4-3.172 4h-3.172v-8zM16.969 26h-4.969v-8h4.969c1.827 0 3.313 1.794 3.313 4s-1.486 4-3.313 4z">&lt;/path>',
-    '&lt;/symbol>'
+  '&lt;symbol id="icon-bold" viewBox="0 0 32 32">',
+  '&lt;path class="path1" d="M22.121 15.145c1.172-1.392 1.879-3.188 1.879-5.145 0-4.411-3.589-8-8-8h-10v28h12c4.411 0 8-3.589 8-8 0-2.905-1.556-5.453-3.879-6.855zM12 6h3.172c1.749 0 3.172 1.794 3.172 4s-1.423 4-3.172 4h-3.172v-8zM16.969 26h-4.969v-8h4.969c1.827 0 3.313 1.794 3.313 4s-1.486 4-3.313 4z">&lt;/path>',
+  '&lt;/symbol>'
   ].join()
 };
 beeji.PluginManager.addPlugin('bold', Bold);
@@ -72,11 +70,8 @@ beeji.PluginManager.addPlugin('bold', Bold);
         </pre>
       </li>
       <li>
-        <h3>Customizable</h3>
-        <p>We can customize the layout of the editor menu easily.</p>
-        <p>We can sort the plugins in any way.</p>
-        <p>And also support combine some plugins in a sub menu container.</p>
-
+        <h3>可定制的</h3>
+        <p>界面的菜单和子菜单布局、顺序都可以随意的修改；页面上的文字可以自定义</p>
         <pre class="language-javascript">
           <code class="language-javascript">
 var objInit = {
